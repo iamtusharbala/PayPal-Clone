@@ -1,0 +1,315 @@
+html {
+  font-family: "Libre Baskerville", serif;
+  font-family: "Martel Sans", sans-serif;
+  font-family: "Paytone One", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: yellow;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  height: 70px;
+}
+
+.menu-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-links i {
+  margin-left: 10px;
+  color: grey;
+}
+
+/* .menu-links li a:hover {
+  border-color: #0070ba;
+  border-width: 4px;
+  color: red;
+} */
+
+.menu-links ul li {
+  float: left;
+  padding: 25px;
+}
+
+.menu-links ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 600;
+}
+
+.menu-links {
+  margin-left: 120px;
+  margin-top: -18px;
+}
+
+.paypal-logo {
+  margin-top: 18px;
+  margin-left: 200px;
+}
+
+.nav-buttons {
+  margin: 15px;
+  margin-left: 170px;
+}
+
+button {
+  padding: 10px 18px;
+  width: 90px;
+  border-radius: 30px;
+  font-weight: 400;
+}
+
+.nav-buttons .btn-secondary {
+  color: #0070ba;
+  border: 1px solid #0070ba;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #0070ba;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+}
+
+.nav-buttons button:hover {
+  cursor: pointer;
+}
+
+.transparent {
+  background-color: transparent !important;
+}
+
+.nav-buttons .btn-secondary:hover {
+  border: 1px solid #004f84;
+  color: #004f84;
+}
+.nav-buttons .btn-primary:hover {
+  background-color: #004f84;
+}
+
+.text-description button:hover {
+  border: 1px solid #004f84;
+  color: #004f84;
+  cursor: pointer;
+}
+.btn-body {
+  margin-top: 0;
+  width: 300px;
+  background: white;
+  color: #0070ba;
+  border: 1px solid #0070ba;
+  padding: 16px 18px;
+}
+
+.body-text {
+  text-align: center;
+}
+
+.body-container {
+  width: 100%;
+  height: 630px;
+  background-color: #0070ba;
+}
+
+#bg-video {
+  position: absolute;
+  background-size: cover;
+  overflow: hidden;
+  display: none;
+}
+
+.support {
+  background-color: #02387b;
+  text-align: center;
+  height: 120px;
+}
+
+.support-btn {
+  margin-top: -34px;
+}
+
+.btn-spt {
+  width: 160px;
+  background-color: #fff;
+  border-color: #fff;
+  color: #0d3685;
+}
+
+.support p {
+  margin-top: 0;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  font-weight: 100;
+}
+
+.container {
+  padding: 0px 48px;
+  margin: 0px 58px;
+}
+
+.container p {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+}
+
+.container-feature {
+  margin: 0px 92px;
+  padding: 0px 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature {
+  padding: 40px 60px;
+}
+
+.payment-box {
+  padding: 40px 60px 0px 60px;
+}
+
+.feature-paragraph {
+  font-size: 15px;
+}
+
+.img-feature {
+  margin-left: 126px;
+}
+
+.img-feature img {
+  max-width: 90%;
+  max-height: 350px;
+}
+.text-description {
+  width: 50%;
+}
+
+.grey-bg {
+  background-color: #f5f7fa;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.headline {
+  color: #00a8ea;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-family: "Martel Sans", sans-serif;
+}
+
+.headline-body {
+  margin-top: 0;
+  padding: 70px 360px 0px 360px;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-family: "Martel Sans", sans-serif;
+  text-align: center;
+}
+
+.btn-feature {
+  margin-top: 25px;
+  width: 300px;
+  background: white;
+  color: #0070ba;
+  border: 1px solid #0070ba;
+  padding: 16px 18px;
+  font-weight: 600;
+}
+
+.brands {
+  text-align: center;
+}
+
+.brand-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-logos img {
+  padding: 10px;
+  max-width: 100%;
+}
+
+.container-payment {
+  margin: 0px 152px;
+  padding: 0px 48px;
+  text-align: center;
+}
+
+.payment-count {
+  height: 400px;
+  background-color: #00a8ea;
+}
+
+.container-payment button {
+  background-color: #fff;
+  color: #0d3685;
+  font-weight: 600;
+  border: none;
+}
+
+.container-payment button:hover {
+  cursor: pointer;
+  color: #004f84;
+}
+
+.container-payment .headline {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.clock {
+  color: black;
+  display: flex;
+  padding: 30px 0;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+}
+
+.clock > div {
+  display: flex;
+  justify-content: center;
+}
+
+.number-digit {
+  width: 62px;
+  height: 68px;
+  border-radius: 20px;
+  background-color: #fff;
+  margin: 2.5px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.number-digit span {
+  color: #000;
+}
+
+.container {
+  margin: 0px 152px;
+  padding: 0px 48px;
+}
+
+.disclosure {
+  padding: 40px 0px;
+}
