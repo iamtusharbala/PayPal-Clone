@@ -117,7 +117,7 @@ button {
 
 .body-container {
   width: 100%;
-  height: 630px;
+  height: 80vh;
   background-color: #0070ba;
   display: flex;
   align-items: center;
@@ -214,7 +214,7 @@ button {
 
 .headline-body {
   margin-top: 0;
-  padding: 0 25%;
+  padding: 0 20%;
   color: #fff;
   font-size: 2.5rem;
   line-height: 3rem;
@@ -417,5 +417,8 @@ button {
   .headline {
     text-align: center;
     font-size: 2.2rem;
+  }
+  .feature {
+    padding: 10% 12%;
   }
 }
