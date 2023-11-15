@@ -14,7 +14,8 @@ body {
   width: 100%;
   display: flex;
   background-color: white;
-  height: 70px;
+  justify-content: space-around;
+  height: 100%;
 }
 
 .menu-links ul {
@@ -48,18 +49,15 @@ body {
 }
 
 .menu-links {
-  margin-left: 120px;
   margin-top: -18px;
 }
 
 .paypal-logo {
   margin-top: 18px;
-  margin-left: 200px;
 }
 
 .nav-buttons {
   margin: 15px;
-  margin-left: 170px;
 }
 
 button {
@@ -112,15 +110,21 @@ button {
   border: 1px solid #0070ba;
   padding: 16px 18px;
 }
+.small-display {
+  display: none;
+}
 
 .body-text {
   text-align: center;
+  padding: 0px 2%;
 }
 
 .body-container {
   width: 100%;
   height: 630px;
   background-color: #0070ba;
+  display: flex;
+  align-items: center;
 }
 
 #bg-video {
@@ -134,10 +138,7 @@ button {
   background-color: #02387b;
   text-align: center;
   height: 120px;
-}
-
-.support-btn {
-  margin-top: -34px;
+  overflow: hidden;
 }
 
 .btn-spt {
@@ -149,8 +150,8 @@ button {
 
 .support p {
   margin-top: 0;
-  padding: 20px;
-  font-size: 20px;
+  padding-top: 20px;
+  font-size: 1.3rem;
   color: white;
   font-weight: 100;
 }
@@ -158,6 +159,7 @@ button {
 .container {
   padding: 0px 48px;
   margin: 0px 58px;
+  overflow: hidden;
 }
 
 .container p {
@@ -174,6 +176,7 @@ button {
 
 .feature {
   padding: 40px 60px;
+  overflow: hidden;
 }
 
 .payment-box {
@@ -213,7 +216,7 @@ button {
 
 .headline-body {
   margin-top: 0;
-  padding: 70px 360px 0px 360px;
+  padding: 0 25%;
   color: #fff;
   font-size: 2.5rem;
   line-height: 3rem;
@@ -223,7 +226,7 @@ button {
 
 .btn-feature {
   margin-top: 25px;
-  width: 300px;
+  width: 60%;
   background: white;
   color: #0070ba;
   border: 1px solid #0070ba;
@@ -288,6 +291,7 @@ button {
 .clock > div {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .number-digit {
@@ -312,4 +316,82 @@ button {
 
 .disclosure {
   padding: 40px 0px;
+}
+
+/* Responsiveness */
+
+@media (max-width: 1024px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    height: 100%;
+    justify-content: space-around;
+  }
+  .paypal-logo {
+    margin-top: 18px;
+    margin-left: 16px;
+  }
+  .menu-links {
+    display: none;
+  }
+  .nav-buttons {
+    margin: 20px 0px 15px 60px;
+  }
+  .headline-body {
+    margin-top: 0;
+    padding: 4% 0;
+  }
+  .body-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .medium-display {
+    display: none;
+  }
+
+  .small-display {
+    display: block;
+  }
+  .container-feature {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .img-feature {
+    margin-left: 0;
+  }
+  .btn-feature {
+    width: 100%;
+  }
+  .container-payment {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .support .container {
+    margin: 0;
+    padding: 0;
+  }
+  .support p {
+    margin-top: 0;
+    padding: 1%;
+    font-size: 1.3rem;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  .disclosure {
+    padding: 4% 8%;
+  }
 }
