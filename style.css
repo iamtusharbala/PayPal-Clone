@@ -443,3 +443,15 @@ button {
     font-size: 1rem;
   }
 }
+
+@media (max-width: 417px) {
+  .container-payment button {
+    width: 100%;
+  }
+  .nav-buttons {
+    margin: 0;
+  }
+  .navbar {
+    height: 70px;
+  }
+}
