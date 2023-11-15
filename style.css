@@ -13,7 +13,7 @@ body {
   width: 100%;
   display: flex;
   background-color: white;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 100%;
   align-items: center;
 }
@@ -121,6 +121,7 @@ button {
   background-color: #0070ba;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #bg-video {
@@ -263,6 +264,7 @@ button {
   color: #0d3685;
   font-weight: 600;
   border: none;
+  width: 40%;
 }
 
 .container-payment button:hover {
@@ -293,14 +295,17 @@ button {
 }
 
 .number-digit {
-  width: 62px;
-  height: 68px;
+  width: 4rem;
+  height: 4rem;
   border-radius: 20px;
   background-color: #fff;
   margin: 2.5px;
   text-align: center;
   font-weight: 900;
   font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .number-digit span {
@@ -371,6 +376,7 @@ button {
     padding: 0;
     text-align: center;
   }
+
   .support .container {
     margin: 0;
     padding: 0;
@@ -410,6 +416,7 @@ button {
   .reverse {
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
   }
   .img-feature img {
     max-width: 100%;
@@ -420,5 +427,19 @@ button {
   }
   .feature {
     padding: 10% 12%;
+  }
+  .brand-logos {
+    display: flex;
+    flex-direction: column;
+  }
+  .feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .number-digit {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
   }
 }
