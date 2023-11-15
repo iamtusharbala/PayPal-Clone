@@ -102,9 +102,10 @@ button {
   margin-top: 0;
   width: 300px;
   background: white;
-  color: #0070ba;
+  color: #02387b;
   border: 1px solid #0070ba;
   padding: 16px 18px;
+  font-weight: 600;
 }
 .small-display {
   display: none;
@@ -113,6 +114,10 @@ button {
 .body-text {
   text-align: center;
   padding: 0px 2%;
+}
+
+.body-text button:hover {
+  cursor: pointer;
 }
 
 .body-container {
@@ -140,11 +145,17 @@ button {
   justify-content: center;
 }
 
+.support button:hover {
+  cursor: pointer;
+}
+
 .btn-spt {
-  width: 160px;
+  min-width: 160px;
   background-color: #fff;
   border-color: #fff;
   color: #0d3685;
+  font-weight: 600;
+  font-size: 0.7rem;
 }
 
 .support p {
@@ -382,7 +393,7 @@ button {
     padding: 0;
   }
   .support p {
-    margin-top: 0;
+    margin: 0;
     font-size: 1.3rem;
   }
 
