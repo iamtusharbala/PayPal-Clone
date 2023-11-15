@@ -355,6 +355,10 @@ button {
     align-items: center;
   }
 
+  #bg-video {
+    bottom: 0;
+    top: 0;
+  }
   .menu-links {
     display: none;
   }
